@@ -1,0 +1,164 @@
+/* config.h.in.  Generated from configure.in by autoheader.  */
+
+/* GNU C++ compiler */
+#undef COMPILER_GCC
+
+/* Intel C++ compiler */
+#undef COMPILER_ICC
+
+/* prefix for fftw3 library */
+#undef FFTW_PREFIX
+
+/* MD++ */
+#undef GROMOSXX
+
+/* MD date (configure) */
+#undef GROMOS_DATE
+
+/* Gromos major version info */
+#undef GROMOS_MAJOR_VERSION
+
+/* Gromos micro version info */
+#undef GROMOS_MICRO_VERSION
+
+/* Gromos minor version info */
+#undef GROMOS_MINOR_VERSION
+
+/* Gromos version info */
+#undef GROMOS_VERSION
+
+/* Define to 1 if you have the `acosh' function. */
+#undef HAVE_ACOSH
+
+/* Define to 1 if you have the `asinh' function. */
+#undef HAVE_ASINH
+
+/* Define to 1 if you have the `atanh' function. */
+#undef HAVE_ATANH
+
+/* Have clipper x-ray library */
+#undef HAVE_CLIPPER
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the `expm1' function. */
+#undef HAVE_EXPM1
+
+/* Define to 1 if you have the `finite' function. */
+#undef HAVE_FINITE
+
+/* Have Gromacs lib */
+#undef HAVE_GMX
+
+/* Gnu Scientific Library */
+#undef HAVE_GSL
+
+/* Define to 1 if you have the `hypot' function. */
+#undef HAVE_HYPOT
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `isfinite' function. */
+#undef HAVE_ISFINITE
+
+/* Define to 1 if you have the `isinf' function. */
+#undef HAVE_ISINF
+
+/* Define to 1 if you have the `isnan' function. */
+#undef HAVE_ISNAN
+
+/* Define to 1 if you have the `fftw3' library (-lfftw3). */
+#undef HAVE_LIBFFTW3
+
+/* Define to 1 if you have the `m' library (-lm). */
+#undef HAVE_LIBM
+
+/* Define to 1 if you have the `readline' library (-lreadline). */
+#undef HAVE_LIBREADLINE
+
+/* Define to 1 if you have the `z' library (-lz). */
+#undef HAVE_LIBZ
+
+/* Define to 1 if you have the `log1p' function. */
+#undef HAVE_LOG1P
+
+/* Have md++ lib */
+#undef HAVE_MDPP
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Have readline header */
+#undef HAVE_READLINE
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Have VMD plugin header */
+#undef HAVE_VMD
+
+/* Define to 1 if you have the `wordexp' function. */
+#undef HAVE_WORDEXP
+
+/* Have wordexp header */
+#undef HAVE_WORDEXP_H
+
+/* Define to 1 if you have the `wordfree' function. */
+#undef HAVE_WORDFREE
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
