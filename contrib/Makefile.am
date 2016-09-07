@@ -63,7 +63,6 @@ bin_PROGRAMS = \
 	pore_dist_corr\
 	pore_surv_P\
 	pore_hsolv\
-	pore_hbond\
 	graphite\
 	pore_rot_rel\
 	dipole_corr\
@@ -127,7 +126,6 @@ pore_rates_SOURCES=pore_rates.cc
 pore_dist_corr_SOURCES=pore_dist_corr.cc
 pore_surv_P_SOURCES=pore_surv_P.cc
 pore_hsolv_SOURCES=pore_hsolv.cc
-pore_hbond_SOURCES=pore_hbond.cc
 graphite_SOURCES=graphite.cc
 pore_rot_rel_SOURCES=pore_rot_rel.cc
 dipole_corr_SOURCES=dipole_corr.cc

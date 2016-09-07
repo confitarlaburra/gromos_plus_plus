@@ -34,7 +34,7 @@
 #include "../src/gmath/Vec.h"
 #include "../src/utils/AtomSpecifier.h"
 #include "../src/utils/groTime.h"
-#include "delaunay.cc"
+//#include "delaunay.cc"
 
 using namespace std;
 using namespace gmath;
