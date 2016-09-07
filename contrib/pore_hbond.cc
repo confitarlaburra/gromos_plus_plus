@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
 	ic.close();
       } 
       else {
-	throw gromos::Exception("pore_diffus", "no trajectory specified (@traj)");
+	throw gromos::Exception("pore_hbond", "no trajectory specified (@traj)");
       }
     }
     // The current system
