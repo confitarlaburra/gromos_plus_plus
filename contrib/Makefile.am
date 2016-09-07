@@ -47,7 +47,27 @@ bin_PROGRAMS = \
 	sasa_new\
 	ener_test\
 	force\
-	mut_top
+	mut_top\
+	temperature\
+	gatherNT\
+	pore_loading\
+	gatherNT\
+	pore_ads\
+	pore_ax_rad\
+	pore_pf\
+	pore_pf_multi\
+	pore_diffus\
+	pore_P1\
+	pore_Pcorr\
+	pore_rates\
+	pore_dist_corr\
+	pore_surv_P\
+	pore_hsolv\
+	pore_hbond\
+	graphite\
+	pore_rot_rel\
+	dipole_corr\
+	Kinetic_MC
 
 aggregates_SOURCES = aggregates.cc
 rottemp_SOURCES = rottemp.cc
@@ -92,6 +112,26 @@ sasa_new_SOURCES = sasa_new.cc
 ener_test_SOURCES = ener_test.cc
 force_SOURCES = force.cc
 mut_top_SOURCES = mut_top.cc
+temperature_SOURCES = temperature.cc
+gatherNT_SOURCES =    gatherNT.cc
+pore_loading_SOURCES = pore_loading.cc
+gatherNT_SOURCES = gatherNT.cc
+pore_ads_SOURCES = pore_ads.cc
+pore_ax_rad_SOURCES = pore_ax_rad.cc
+pore_pf_SOURCES = pore_pf.cc
+pore_pf_multi_SOURCES = pore_pf_multi.cc
+pore_diffus_SOURCES= pore_diffus.cc
+pore_P1_SOURCES= pore_P1.cc
+pore_Pcorr_SOURCES=pore_Pcorr.cc
+pore_rates_SOURCES=pore_rates.cc
+pore_dist_corr_SOURCES=pore_dist_corr.cc
+pore_surv_P_SOURCES=pore_surv_P.cc
+pore_hsolv_SOURCES=pore_hsolv.cc
+pore_hbond_SOURCES=pore_hbond.cc
+graphite_SOURCES=graphite.cc
+pore_rot_rel_SOURCES=pore_rot_rel.cc
+dipole_corr_SOURCES=dipole_corr.cc
+Kinetic_MC_SOURCES=Kinetic_MC.cc
 
 LDADD = $(top_builddir)/src/libgromos.la
 
