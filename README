@@ -2,6 +2,32 @@ This is GROMOS++, an object oriented package
 for pre- and post molecular dynamics simulation
 analysis.
 
+With added programs for nanotube analyses:
+
+temperature
+gatherNT	
+pore_loading
+gatherNT
+pore_ads
+pore_ax_rad
+pore_pf
+pore_pf_multi
+pore_diffus
+pore_P1
+pore_Pcorr
+pore_rates
+pore_dist_corr
+pore_surv_P
+pore_hsolv
+graphite
+pore_rot_rel
+dipole_corr
+Kinetic_MC
+graphite
+
+The code pore_hbond needs to be checked due to changes in source from version 1.3.0 to 1.3.2
+
+
 Have a look at http://wwi.igc.ethz.ch/gromos++.html
 
 
